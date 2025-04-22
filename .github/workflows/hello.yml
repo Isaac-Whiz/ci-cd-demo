@@ -1,0 +1,13 @@
+name: Initial-workflow
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello Class"
+  print-initials:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print-initials-step
+        run: echo "Ssekajja W. Isaac"
